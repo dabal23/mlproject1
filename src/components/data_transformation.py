@@ -25,7 +25,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         try:
-            num_cols = ['writting_score', 'reading_score']
+            num_cols = ['writing_score', 'reading_score']
             cat_cols = [
                 'gender',
                 'race_ethnicity',
